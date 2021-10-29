@@ -1,0 +1,124 @@
+html {
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 950px;
+    padding: 10px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/background.jpeg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main { 
+    flex-direction: column;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+  } 
+
+  .icons {
+    justify-content: space-between;
+    margin-top: 1em;
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 1em;
+    margin-top: 1.5em;
+  }
+
+  h1 {
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: 0.025em;
+    margin-bottom: 0.025em;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 0.25em;
+    margin-bottom: 0.025em;
+    padding: 0.025em;
+  }
+
+  button {
+    background: none;
+    color: transparent;
+    font-size: 1.4em;
+    padding: 0.5em 0.5em;
+    margin: 10px;
+    margin-bottom: 2em;
+    border: 0.05px white solid;
+    transition: all 0.2s;
+    border-radius: 10%;
+}
+
+  a {
+    cursor: default;
+}
+
+  button:hover { 
+    cursor: pointer;
+    color: white;
+    border-color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    transform: translateY(-0.2em);
+}
+
+@media (min-width: 0px) and (max-width: 374px){
+  img {
+    height: 150px;
+    width: 150px;
+  }
+  h1, h2, button, .icons {
+    font-size: 15px;
+}
+}
+
+@media (min-width: 375px) and (max-width: 780px){
+  img {
+    height: 200px;
+    width: 200px;
+  } 
+  h1,h2, button, .icons {
+    font-size: 15px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 375px) and (max-width: 825px){
+  html {
+    height: 95vh;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+  }
+  h1, h2, button, .icons {
+    font-size: 10px;
+}
+.buttons {
+  padding-top: 5px;
+}
+}
