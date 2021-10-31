@@ -4,7 +4,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
     box-sizing: border-box;
   }
@@ -45,10 +45,12 @@ html {
   }
 
   .top {
-    justify-content: flex-end;
     margin-top: 1em;
     font-size: 2.0em;
     gap: 1.5em;
+    position: absolute;
+    top: 0px;
+    right: 20px;
   }
 
   img {
@@ -118,7 +120,7 @@ html {
 }
 }
 
-@media (min-width: 375px) and (max-width: 780px){
+@media (min-width: 375px) and (max-width: 835px){
   html {
     height: 90vh;
   }
