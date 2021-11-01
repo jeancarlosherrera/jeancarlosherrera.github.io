@@ -35,7 +35,7 @@ html {
     flex-wrap: wrap;
     padding-top: 2.5em;
     padding-bottom: 2.5em;
-    gap: 1em;
+    gap: 1.1em;
   } 
 
   .icons {
@@ -80,15 +80,19 @@ html {
     background: none;
     color: transparent;
     font-size: 1.4em;
-    padding: 0.5em 0.5em;
-    margin: 5px;
+    padding: 0.5em 0.1em;
+    margin: 0.1em;
     border: 0.05px white solid;
     transition: all 0.2s;
     border-radius: 10%;
 }
 
+  span {
+    padding: 0.5em 1.2em;
+}
+
   .top a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
   .button a {
