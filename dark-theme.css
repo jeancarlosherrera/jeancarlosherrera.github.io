@@ -53,6 +53,12 @@ html {
     right: 20px;
   }
 
+.toggle {
+  width: 10%;
+  left: 35px
+}
+
+
   img {
     width: 300px;
     height: 300px;
@@ -95,16 +101,28 @@ html {
     text-decoration: none;
 }
 
-  .button a {
+  .buttons a {
     cursor: default;
 }
 
-  button:hover { 
-    cursor: pointer;
-    color: white;
-    border-color: white;
-    box-shadow: 0 0.5em 0.5em -0.4em white;
-    transform: translateY(-0.2em);
+.toggle i {
+  font-size: 1.2em;
+}
+
+.toggle button {
+  border: none;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.btn:hover { 
+  cursor: pointer;
+  color: white;
+  border-color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em white;
+  transform: translateY(-0.2em);
 }
 
   span:hover {
@@ -154,7 +172,7 @@ html {
 }
 }
 
-@media (min-width: 1501px){
+@media (min-width: 1500px){
   html {
   height: 90vh;
 }
@@ -162,3 +180,7 @@ html {
   padding-bottom: 8em;
 }
 }
+
+
+
+

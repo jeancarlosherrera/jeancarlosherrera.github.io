@@ -6,13 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jean Carlos Herrera</title>
-    <link rel="stylesheet" href="styles.css">
+    <link id="theme" rel="stylesheet" href="dark-theme.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Changa:wght@600&family=Glory:wght@700&family=Orbitron:wght@900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="app.js"></script>
 </head>
 
 <body>
+
+    <div class="container top icons toggle">
+        <button id="toggle-btn">
+            <i id="toggle-icon" class="material-icons gradient">wb_sunny</i>
+        </button>
+    </div>
 
     <div class="container top icons">
         <a href="https://twitter.com/jcherreram"><i class="devicon-twitter-original gradient"></i></a>
@@ -21,7 +29,7 @@
     </div>
 
     <div class="container">
-        <img src="img/black_and_white.jpg" alt="main photo">
+        <img id="photo" src="img/black_and_white.jpg" alt="main photo">
     </div>
 
     <div class="container main">
@@ -30,9 +38,9 @@
     </div>
 
     <div class="container buttons">
-        <a href="about.html"> <button><span class="gradient">about</span></button></a>
-        <a href="projects.html"> <button><span class="gradient">projects</span></button></a>
-        <a href="contact.html"><button><span class="gradient">contact</span></button></a>
+        <a href="about.html"> <button class="btn"><span class="btn gradient">about</span></button></a>
+        <a href="projects.html"> <button class="btn"><span class="btn gradient">projects</span></button></a>
+        <a href="contact.html"><button class="btn"><span class="btn gradient">contact</span></button></a>
     </div>
 
     <div class="container icons">

@@ -1,0 +1,177 @@
+html {
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgb(247, 243, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 950px;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gradient {
+    background: linear-gradient(to right, #fc5404 20%, #f9b208 70%, #fc5404 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .main { 
+    flex-direction: column;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+    padding-top: 2.1em;
+    padding-bottom: 2.8em;
+    gap: 1.1em;
+  } 
+
+  .icons {
+    justify-content: space-between;
+    margin-top: 1em;
+    font-size: 1.5em;
+  }
+
+  .top {
+    margin-top: 1em;
+    font-size: 2.0em;
+    gap: 1.5em;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+  }
+
+  .toggle {
+    width: 10%;
+    left: 35px
+  }
+  
+  
+
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 1em;
+    margin-top: 1.5em;
+  }
+
+  h1 {
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: 0.025em;
+    margin-bottom: 0.025em;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 0.25em;
+    margin-bottom: 0.025em;
+    padding: 0.025em;
+  }
+
+  button {
+    background: none;
+    color: transparent;
+    font-size: 1.4em;
+    padding: 0.5em 0.1em;
+    margin: 0.1em;
+    border: 0.05px #fc7404 solid;
+    transition: all 0.2s;
+    border-radius: 10%;
+}
+
+  span {
+    padding: 0.5em 1.2em;
+}
+
+  .top a {
+    text-decoration: none;
+}
+
+  .buttons a {
+    cursor: default;
+}
+
+.toggle i {
+  font-size: 1.2em;
+}
+
+.toggle button {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+  .btn:hover { 
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em #fc7404;
+    transform: translateY(-0.2em);
+}
+
+
+@media (min-width: 0px) and (max-width: 374px){
+  html {
+    height: 95vh;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+  }
+  h1, h2, button, .icons {
+    font-size: 15px;
+}
+}
+
+@media (min-width: 375px) and (max-width: 835px){
+  html {
+    height: 90vh;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+  } 
+  h1,h2, button, .icons {
+    font-size: 15px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 375px) and (max-width: 825px){
+  html {
+    height: 120vh;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+  }
+  h1, h2, button, .icons {
+    font-size: 10px;
+}
+.buttons {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+}
+
+@media (min-width: 1500px){
+  html {
+  height: 90vh;
+}
+.buttons {
+  padding-bottom: 8em;
+}
+}
+
