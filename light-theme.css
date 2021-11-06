@@ -56,6 +56,10 @@ html {
     left: 35px
   }
 
+  .btn{
+    color: #fc7404;
+  }  
+
   img {
     width: 300px;
     height: 300px;
@@ -172,4 +176,5 @@ html {
   padding-bottom: 8em;
 }
 }
+
 
