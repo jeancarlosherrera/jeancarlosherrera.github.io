@@ -69,7 +69,7 @@ p {
 .toolkit {
     display: flex;
     justify-content: center;
-    padding: 4em 1.5em 1.5em 1.5em;
+    padding: 3em 1.5em 1.5em 1.5em;
 }
 
 .toolkit h1 {
