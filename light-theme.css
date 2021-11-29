@@ -168,9 +168,18 @@ html {
 }
 }
 
+@media (min-width: 1000px) and (max-width: 1300px){
+  html {
+  height: 120vh;
+}
+.buttons {
+  padding-bottom: 8em;
+}
+}
+
 @media (min-width: 1500px){
   html {
-  height: 90vh;
+  height: 95vh;
 }
 .buttons {
   padding-bottom: 8em;
