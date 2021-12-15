@@ -1,0 +1,13 @@
+
+
+a {
+    text-decoration: none;
+}
+
+.icon, #toggle-icon {
+    font-size: 1.8em;
+}
+
+.main {
+    height: 100vh;
+}
